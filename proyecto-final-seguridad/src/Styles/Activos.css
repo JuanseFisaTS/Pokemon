@@ -1,0 +1,50 @@
+.asset-management {
+    margin: 20px;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .asset-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .asset-table th,
+  .asset-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+  }
+  
+  .asset-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .asset-table td:last-child {
+    text-align: center;
+  }
+  
+  .button-group {
+    margin-top: 20px;
+  }
+  
+  .action-button {
+    margin-right: 10px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 3px;
+    background-color: #4caf50;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .action-button:hover {
+    background-color: #45a049;
+  }
+  
