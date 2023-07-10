@@ -32,6 +32,12 @@ const Navbar = () => {
         <li style={{ marginRight: '3vw' }}>
         <Link to="/InicioSesion" className="navbar-title">Iniciar Sesión</Link>
         </li>
+        <li style={{ marginRight: '3vw' }}>
+        <Link to="/Riesgos" className="navbar-title">Agregar Riesgos</Link>
+        </li>
+        <li style={{ marginRight: '3vw' }}>
+        <Link to="/TablaRiesgos" className="navbar-title">Ver mis  Riesgos</Link>
+        </li>
           </div>
 
 

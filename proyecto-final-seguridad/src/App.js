@@ -5,6 +5,8 @@ import Navbar from './Components/Navbar';
 import InicioSesion from './Pages/InicioSesion';
 import RegistroActivos from './Pages/RegistroActivos';
 import Activos from './Pages/Activos';
+import Riesgos from './Pages/Riesgos';
+import TablaRiesgos from './Pages/TablaRiesgos';
 
 
 
@@ -23,6 +25,8 @@ export default class App extends React.Component {
         <Route exact path="/InicioSesion" element={<InicioSesion/>} />
         <Route exact path="/RegistroActivos" element={<RegistroActivos/>} />
         <Route exact path="/Activos" element={<Activos/>} />
+        <Route exact path="/Riesgos" element={<Riesgos/>} />
+        <Route exact path="/TablaRiesgos" element={<TablaRiesgos/>} />
         </Routes>
         </div>
       <div>

@@ -1,5 +1,6 @@
 import React from 'react';
-import '../Styles/RegistroActivos.css'
+import '../Styles/RegistroActivos.css';
+import { Link } from 'react-router-dom';
 
 const RegistroActivos = () => {
   return (
@@ -92,7 +93,18 @@ const RegistroActivos = () => {
           <option value="3">3</option>
         </select>
       </div>
+      <div className="form-group">
+        <label htmlFor="risk-dropdown">Riesgo asociado:</label>
+        <select id="risk-dropdown">
+          <option value="">Seleccionar Riesgo</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+        </select>
+      </div>
+      <Link to="/Activos"> 
       <button className="form-button">Enviar</button>
+      </Link>
     </div>
   );
 };
