@@ -38,6 +38,24 @@ const Navbar = () => {
         <li style={{ marginRight: '3vw' }}>
         <Link to="/TablaRiesgos" className="navbar-title">Ver mis  Riesgos</Link>
         </li>
+        <li style={{ marginRight: '3vw' }}>
+        <Link to="/RegistroControles" className="navbar-title">Registrar Controles</Link>
+        </li>
+        <li style={{ marginRight: '3vw' }}>
+        <Link to="/Controles" className="navbar-title">Ver mis  Controles</Link>
+        </li>
+        <li style={{ marginRight: '3vw' }}>
+        <Link to="/Amenazas" className="navbar-title">Ver mis  Amenazas</Link>
+        </li>
+        <li style={{ marginRight: '3vw' }}>
+        <Link to="/RegistroAmenazas" className="navbar-title">Registrar Amenazas</Link>
+        </li>
+        <li style={{ marginRight: '3vw' }}>
+        <Link to="/RegistroVulnerabioidades" className="navbar-title">Registrar Vulnerabilidades</Link>
+        </li>
+        <li style={{ marginRight: '3vw' }}>
+        <Link to="/Vulnerabilidades" className="navbar-title"> Ver mis Vulnerabilidades</Link>
+        </li>
           </div>
 
 

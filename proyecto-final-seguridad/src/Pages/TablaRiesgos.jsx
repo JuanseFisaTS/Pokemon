@@ -42,7 +42,7 @@ const TablaRiesgos = () => {
             <th>Confidencialidad</th>
             <th>Integridad</th>
             <th>Nivel de riesgo</th>
-            <th>Disponibilidad</th>
+            
             <th>Acciones</th>
             <th>Eliminar Riesgo</th>
           </tr>
@@ -57,7 +57,7 @@ const TablaRiesgos = () => {
               <td>{risk.confidentiality}</td>
               <td>{risk.integrity}</td>
               <td>{risk.riskLevel}</td>
-              <td>{risk.availabilityLevel}</td>
+            
               <td>{risk.action}</td>
               <td>
                 <button onClick={() => handleDeleteRisk(risk.id)}>Eliminar</button>

@@ -38,9 +38,9 @@ const Activos = () => {
       <table className="risk-table">
         <thead>
           <tr>
-            <th>ID</th>
-            <th>Categoría</th>
-            <th>Subcategoría</th>
+            <th>Número de Activo</th>
+            <th>Proceso Macro</th>
+            <th>Subproceso</th>
             <th>Propietario</th>
             <th>Descripción</th>
             <th>Información</th>
@@ -85,7 +85,7 @@ const Activos = () => {
       </table>
       
       <Link to="/Riesgos"> 
-      <button className="button">Agregar Riesgos</button>
+      <button className="button">Agregar Activos</button>
       </Link>
     </div>
   );

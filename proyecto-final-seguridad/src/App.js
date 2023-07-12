@@ -7,6 +7,14 @@ import RegistroActivos from './Pages/RegistroActivos';
 import Activos from './Pages/Activos';
 import Riesgos from './Pages/Riesgos';
 import TablaRiesgos from './Pages/TablaRiesgos';
+import RegistroControles from './Pages/registroControles';
+import Controles from './Pages/Controles';
+import Amenazas from './Pages/Amenazas';
+import RegistroAmenazas from './Pages/RegistroAmenazas';
+import Vulnerabilidades from './Pages/Vulnerabilidades';
+import RegistroVulnerabilidads from './Pages/RegistroVulnerabilidades';
+//import RegistroControles from './Pages/RegistroControles';
+
 
 
 
@@ -27,6 +35,12 @@ export default class App extends React.Component {
         <Route exact path="/Activos" element={<Activos/>} />
         <Route exact path="/Riesgos" element={<Riesgos/>} />
         <Route exact path="/TablaRiesgos" element={<TablaRiesgos/>} />
+        <Route exact path="/RegistroControles" element={<RegistroControles/>} />
+        <Route exact path="/Controles" element={<Controles/>} />
+        <Route exact path="/Amenazas" element={<Amenazas/>} />
+        <Route exact path="/RegistroAmenazas" element={<RegistroAmenazas/>} />
+        <Route exact path="/Vulnerabilidades" element={<Vulnerabilidades/>} />
+        <Route exact path="/RegistroVulnerabioidades" element={<RegistroVulnerabilidads/>} />
         </Routes>
         </div>
       <div>
